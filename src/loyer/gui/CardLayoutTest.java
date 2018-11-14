@@ -6,6 +6,7 @@ import java.awt.CardLayout;
 import java.awt.Frame;
 import java.awt.Panel;
 import java.awt.event.ActionListener;
+import java.awt.Font;
 
 public class CardLayoutTest {
 
@@ -42,14 +43,19 @@ public class CardLayoutTest {
       }
     };
     Button previous = new Button("上一张");
+    previous.setFont(new Font("宋体", Font.PLAIN, 14));
     previous.addActionListener(listener);
     Button next = new Button("下一张");
+    next.setFont(new Font("宋体", Font.PLAIN, 14));
     next.addActionListener(listener);
     Button last = new Button("最后一张");
+    last.setFont(new Font("宋体", Font.PLAIN, 14));
     last.addActionListener(listener);
     Button first = new Button("第一张");
+    first.setFont(new Font("宋体", Font.PLAIN, 14));
     first.addActionListener(listener);
     Button third = new Button("第三张");
+    third.setFont(new Font("宋体", Font.PLAIN, 14));
     third.addActionListener(listener);
     p.add(third);
     p.add(first);
