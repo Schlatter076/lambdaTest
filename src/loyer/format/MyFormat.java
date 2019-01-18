@@ -16,7 +16,13 @@ public class MyFormat {
     // numberFormatTest();
     //dateFormatTest();
     //simpleDateFormat();
-    dateTimeFormatterTest();
+    //dateTimeFormatterTest();
+    Date date = new Date();
+    DateFormat format = DateFormat.getTimeInstance(DateFormat.SHORT, Locale.CHINA);
+    System.out.println(format.format(date));
+    //SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
+    //SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd   HH:mm:ss     ");
+    //System.out.println(sdf.format(date));
   }
 
   public static void numberFormatTest() {

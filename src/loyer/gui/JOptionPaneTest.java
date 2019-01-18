@@ -3,10 +3,14 @@ package loyer.gui;
 import java.awt.Component;
 import java.awt.Font;
 import java.awt.GridLayout;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
 import java.util.Date;
 
+import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
@@ -97,6 +101,7 @@ public class JOptionPaneTest {
     box.add(bottom);
     jf.add(box);
     jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    jf.setIconImage(Toolkit.getDefaultToolkit().getImage(jf.getClass().getResource("/pic/frame.jpg")));
     jf.pack();
     jf.setVisible(true);
 
