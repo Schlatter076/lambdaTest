@@ -18,8 +18,8 @@ public class GraphicsTest {
   private Frame frame = new Frame("位图测试");
   private final String RECT_SHAPE = "rect";
   private final String OVAL_SHAPE = "oval";
-  private Button rect = new Button("rect");
-  private Button oval = new Button("oval");
+  private Button rect = new Button(RECT_SHAPE);
+  private Button oval = new Button(OVAL_SHAPE);
   private MyCanvas canvas = new MyCanvas();
   private String shape = "";
   
@@ -66,6 +66,27 @@ public class GraphicsTest {
 
     @Override
     public void paint(Graphics g) {
+    
+      /*
+      //使用Graphics画图
+      g.fillRect(0, 0, 400, 400);
+      //设置颜色：红
+      g.setColor(new Color(255, 0, 0));
+      g.fillArc(20, 20, 100, 100, 30, 120);
+      //设置颜色：绿
+      g.setColor(new Color(0, 255, 0));
+      g.fillArc(20, 20, 100, 100, 150, 120);
+      //设置颜色：蓝
+      g.setColor(new Color(0, 0, 255));
+      g.fillArc(20, 20, 100, 100, 270, 120);
+      //设置颜色：黑
+      g.setColor(new Color(255, 255, 255));
+      g.setFont(new Font("宋体", Font.PLAIN, 17));
+      //画出三个字符串
+      g.drawString("red:climb", 200, 60);
+      g.drawString("green:swim", 200, 100);
+      g.drawString("blue:jump", 200, 140);//*/
+      
       Random ran = new Random();
       if(shape.equals(RECT_SHAPE)) {
         g.setColor(Color.GREEN);  //设置画笔颜色
@@ -82,7 +103,7 @@ public class GraphicsTest {
       //g.draw3DRect(ran.nextInt(200), ran.nextInt(120), 40, 50, true);
       //g.drawLine(20, 10, 40, 60);
       //g.drawLine(40, 60, 60, 80);
-      //g.drawBytes(b, 0, b.length, 10, 15);
+      //g.drawBytes(b, 0, b.length, 10, 15);//*/
     }
 
   }

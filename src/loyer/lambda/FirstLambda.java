@@ -5,9 +5,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.swing.JOptionPane;
+
 public class FirstLambda {
   
   public static void main(String[] args) throws InterruptedException, IOException {
+    
+    int temp = JOptionPane.showConfirmDialog(null, "该产品已测试通过，点击'是(Y)'取消测试", "询问", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
+    if(temp == JOptionPane.YES_OPTION) {
+      System.out.println("取消测试");
+    } else {
+      System.out.println("继续测试");
+    }
     //Timer timer = new Timer(1000, event -> {System.out.println("Lambda");}); 
    // timer.start();
     //while(true);

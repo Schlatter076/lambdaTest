@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+    <table id="0">
+        <name>KM017SMT</name>
+        <value>km017smt</value>
+    </table>
+    <table id="1">
+        <name>KM017UNIT</name>
+        <value>km017unit</value>
+    </table>
+    <table id="2">
+        <name>KM033SMT</name>
+        <value>km033smt</value>
+    </table>
+    <table id="3">
+        <name>KM033UNIT</name>
+        <value>km033unit</value>
+    </table>
+    <table id="4">
+        <name>KM073UNIT_HAVE</name>
+        <value>km073unithava</value>
+    </table>
+    <table id="5">
+        <name>KM073UNIT_NO</name>
+        <value>km073unitno</value>
+    </table>
+    <table id="6">
+        <name>KM073SMT_HAVE</name>
+        <value>KM073SMT_NO</value>
+    </table>
+    <table id="7">
+        <name>KM073SMT_NO</name>
+        <value>km073smtno</value>
+    </table>
+    <table id="8">
+        <name>RECORD</name>
+        <value>_recordtd</value>
+    </table>
+    <table id="9">
+        <name>TEST</name>
+        <value>_testdata</value>
+    </table>
+</tables>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

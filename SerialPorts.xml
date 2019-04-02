@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SerialPorts>
+  <SerialPort id="0">
+    <name>COM1</name>
+    <Param-Set>
+      <!--波特率-->
+      <Baudrate>9600</Baudrate>
+      <!--数据位-->
+      <Data-Bit>8</Data-Bit>
+      <!--停止位-->
+      <Stop-Bit>1</Stop-Bit>
+      <!--校验位 0代表无校验，1为奇校验，2为偶校验-->
+      <Parity>0</Parity>
+    </Param-Set>
+  </SerialPort>
+  <SerialPort id="0">
+    <name>COM2</name>
+    <Param-Set>
+      <!--波特率-->
+      <Baudrate>9600</Baudrate>
+      <!--数据位-->
+      <Data-Bit>8</Data-Bit>
+      <!--停止位-->
+      <Stop-Bit>1</Stop-Bit>
+      <!--校验位 0代表无校验，1为奇校验，2为偶校验-->
+      <Parity>0</Parity>
+    </Param-Set>
+  </SerialPort>
+  <SerialPort id="0">
+    <name>COM3</name>
+    <Param-Set>
+      <!--波特率-->
+      <Baudrate>9600</Baudrate>
+      <!--数据位-->
+      <Data-Bit>8</Data-Bit>
+      <!--停止位-->
+      <Stop-Bit>1</Stop-Bit>
+      <!--校验位 0代表无校验，1为奇校验，2为偶校验-->
+      <Parity>0</Parity>
+    </Param-Set>
+  </SerialPort>
+  <SerialPort id="0">
+    <name>COM4</name>
+    <Param-Set>
+      <!--波特率-->
+      <Baudrate>9600</Baudrate>
+      <!--数据位-->
+      <Data-Bit>8</Data-Bit>
+      <!--停止位-->
+      <Stop-Bit>1</Stop-Bit>
+      <!--校验位 0代表无校验，1为奇校验，2为偶校验-->
+      <Parity>0</Parity>
+    </Param-Set>
+  </SerialPort>
+  <SerialPort id="0">
+    <name>COM5</name>
+    <Param-Set>
+      <!--波特率-->
+      <Baudrate>9600</Baudrate>
+      <!--数据位-->
+      <Data-Bit>8</Data-Bit>
+      <!--停止位-->
+      <Stop-Bit>1</Stop-Bit>
+      <!--校验位 0代表无校验，1为奇校验，2为偶校验-->
+      <Parity>0</Parity>
+    </Param-Set>
+  </SerialPort>
+  <SerialPort id="0">
+    <name>COM6</name>
+    <Param-Set>
+      <!--波特率-->
+      <Baudrate>9600</Baudrate>
+      <!--数据位-->
+      <Data-Bit>8</Data-Bit>
+      <!--停止位-->
+      <Stop-Bit>1</Stop-Bit>
+      <!--校验位 0代表无校验，1为奇校验，2为偶校验-->
+      <Parity>0</Parity>
+    </Param-Set>
+  </SerialPort>
+  <SerialPort id="0">
+    <name>COM7</name>
+    <Param-Set>
+      <!--波特率-->
+      <Baudrate>9600</Baudrate>
+      <!--数据位-->
+      <Data-Bit>8</Data-Bit>
+      <!--停止位-->
+      <Stop-Bit>1</Stop-Bit>
+      <!--校验位 0代表无校验，1为奇校验，2为偶校验-->
+      <Parity>0</Parity>
+    </Param-Set>
+  </SerialPort>
+</SerialPorts>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
